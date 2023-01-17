@@ -1,0 +1,20 @@
+.btn-link:hover {
+    color: var(--orangeColor);
+    text-decoration: none;
+}
+
+.btn-link {
+    font-weight: 400;
+    color: var(--greyColorDark);
+    text-decoration: none;
+}
+.btn:focus {
+    box-shadow: none;
+}
+
+#img-faqs{
+    background-image: url(../images/CATEGORIA\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 547px;
+}

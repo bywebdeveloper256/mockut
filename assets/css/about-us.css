@@ -1,0 +1,46 @@
+#about-page p{
+    text-align: justify;
+}
+
+.box{
+    padding:60px 0px;
+}
+
+.box-part{
+    background:#FFF;
+    border-radius:0;
+    min-height: 250px;
+}
+.text{
+    margin:20px 0px 0 0;
+}
+
+#mision-vision{
+    background: rgb(231 231 231);
+}
+
+@media only screen and (max-width: 991px){
+    #about-page img{
+        width: 100%;
+        left: 0;
+    }
+
+    #about-page p{
+        text-align: center;
+    }
+
+    #about-page .content-img{
+        height: 450px;
+    }
+    .box-part{
+        min-height: auto;
+    }
+}
+
+@media only screen and (max-width: 560px){
+    #about-page img{
+        width: auto;
+        height: 100%;
+        left: 0;
+    }
+}
